@@ -19,7 +19,7 @@ env:
 
 gemfile:
   - Gemfile
-  - gemfiles/rails_4_2.gemfile
+  - gemfiles/rails_6_1.gemfile
 
 addons:
   code_climate:

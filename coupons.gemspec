@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rails', '>= 4.2.0', '< 5.0.0'
+  spec.add_dependency 'rails', '~> 6.1', '>= 6.1.4'
   spec.add_dependency 'autoprefixer-rails'
   spec.add_dependency 'sass-rails'
   spec.add_dependency 'page_meta'
@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec-rails'
   spec.add_development_dependency 'codeclimate-test-reporter'
   spec.add_development_dependency 'pry-meta'
-  spec.add_development_dependency 'mysql2', '~> 0.3.13'
+  #spec.add_development_dependency 'mysql2', '~> 0.5.3'
   spec.add_development_dependency 'generator_spec'
   spec.add_development_dependency 'database_cleaner'
   spec.add_development_dependency 'globalid'
