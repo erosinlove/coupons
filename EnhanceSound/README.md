@@ -5,7 +5,7 @@ EnhanceSound is a local-first mastering playground. Users can upload an audio fi
 ## Project structure
 
 ```
-mixea-clone/
+EnhanceSound/
 ├── backend/
 │   ├── main.py
 │   ├── processor.py
